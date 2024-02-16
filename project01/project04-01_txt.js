@@ -10,8 +10,8 @@
 */
 
 // Global Constants
-const COST_PER_LB = 50;
-const COST_PER_MILE = 75;
+const COST_PER_LB = 0.50;
+const COST_PER_MILE = 0.75;
 const SETUP_COST = 500;
 
 // Global Variables
@@ -30,7 +30,16 @@ function calcTotal() {
    let totalCost = 0;      // Set the initial estimate to $0
    msgBox.innerHTML = "";  // Erase any warnings in the message box
    
+   if (wgtBox.value === "" || isNaN(wgtBox.value)) {
+      msgBox.innerHTML = "Please enter a valid weight value.";
+      return;
+  }
 
+  // Check if distance box has a valid value
+  if (distBox.value === "" || isNaN(distBox.value)) {
+      msgBox.innerHTML = "Please enter a valid distance value.";
+      return;
+  }
       totalCost += wgtBox.value * COST_PER_LB;      
 
 
