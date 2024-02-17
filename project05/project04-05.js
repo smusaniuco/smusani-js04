@@ -3,8 +3,8 @@
       Project 04-05
 
       Degrees <-> Radians Coverter
-      Author: 
-      Date:   
+      Author: Shyam Prasad Reddy Musani
+      Date:   2/17/2024
 
       Filename: project04-05.js
  */

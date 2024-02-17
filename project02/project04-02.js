@@ -3,8 +3,8 @@
       Project 04-02
 
       Application to display a random Jane Austen Quote
-      Author: 
-      Date:   
+      Author: Shyam Prasad Reddy Musani
+      Date:   2/17/2024
 
       Filename: project04-02.js
 */

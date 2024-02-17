@@ -3,8 +3,8 @@
       Project 04-04
 
       Application to determine change from a cash amount
-      Author: 
-      Date:   
+      Author:  Shyam Prasad Reddy Musani
+      Date:   2/17/2024
 
       Filename: project04-04.js
 */
