@@ -31,13 +31,13 @@ function calcTotal() {
    msgBox.innerHTML = "";  // Erase any warnings in the message box
    
    if (wgtBox.value === "" || isNaN(wgtBox.value)) {
-      msgBox.innerHTML = "Please enter a valid weight value.";
+      msgBox.innerHTML = "Enter a postive weight.";
       return;
   }
 
   // Check if distance box has a valid value
   if (distBox.value === "" || isNaN(distBox.value)) {
-      msgBox.innerHTML = "Please enter a valid distance value.";
+      msgBox.innerHTML = "Enter a positive mileage.";
       return;
   }
       totalCost += wgtBox.value * COST_PER_LB;      
