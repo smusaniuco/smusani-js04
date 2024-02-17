@@ -42,7 +42,7 @@ function runRegister() {
     }
     
    
-    if (cashValue < billValue) {
+    if (cashValue <= billValue) {
         document.getElementById("warning").innerHTML = "Cash amount must be greater than or equal to the bill amount.";
         return; 
     } else {
